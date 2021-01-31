@@ -1,6 +1,10 @@
-let http = require('http');
+const http = require('http');
+const app = require('./app');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World!');
-}).listen(8080);
+const port = process.env.PORT || 8080;
+const server = http.createServer(app);
+
+server.listen(port, () => {
+    //    let's print a message when the server run successfully
+    console.log("Server restarted successfully")
+});
