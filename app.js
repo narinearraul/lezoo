@@ -9,7 +9,7 @@ app.get("/test", (req, res, next) => {
 
 // Routes which should handle request
 app.get("/words", (req, res, next) => {
-    res.json(vocab.slice(0,2).reverse())
+    res.json(vocab.reverse())
 });
 
 
