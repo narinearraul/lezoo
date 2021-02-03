@@ -1,5 +1,29 @@
 const vocab = [
     {
+        "word": "Կապույտ",
+        "translation": "blue",
+        "description": "",
+        "pronounce": "Kapuyt",
+        "grammar": "adjective"
+    },
+    {
+        "word": "կարտոֆիլ",
+        "translation": "potato",
+        "description": "",
+        "pronounce": "kartofil",
+        "grammar": "noun"
+    },
+    {
+        "word": "բաժակ",
+        "translation": "cup",
+        "description": "",
+        "pronounce": "bazhak",
+        "grammar": "noun"
+    }
+]
+
+const vocab2 = [
+    {
         "word": "լեզու",
         "translation": "language, tonge",
         "description": "",
