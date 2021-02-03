@@ -1,0 +1,250 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/letterA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- A CardView that contains a TextView -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/word_card_view"
+                android:layout_width="350dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/primaryLightColor"
+                app:cardCornerRadius="14dp">
+
+            </androidx.cardview.widget.CardView>
+<!--            TEST TEST TSET-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_4"
+                android:layout_width="350dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/primaryLightColor"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:id="@+id/word_4"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="20dp"
+                    android:text="գեղեցիկ"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/word_translation_4"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="70dp"
+                    android:text="beautiful"
+                    android:textColor="@color/secondaryLightColor"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/word_grammar_4"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Adjective"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="350dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/primaryLightColor"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:id="@+id/word"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/banali"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/word_translation"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/key"
+                    android:textColor="@color/secondaryLightColor"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/word_grammar"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/fish_grammar"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_2"
+                android:layout_width="350dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/primaryLightColor"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:id="@+id/word_2"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/dzuk"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/word_translation_2"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/fish"
+                    android:textColor="@color/secondaryLightColor"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/word_grammar_2"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/fish_grammar"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_3"
+                android:layout_width="350dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/primaryLightColor"
+                app:cardCornerRadius="14dp">
+
+                <TextView
+                    android:id="@+id/word_3"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/lezoo"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/word_translation_3"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/language"
+                    android:textColor="@color/secondaryLightColor"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/word_grammar_3"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/fish_grammar"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/alphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="@string/reference"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/letterA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- A CardView that contains a TextView -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/alphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="@string/reference"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
