@@ -19,6 +19,20 @@ const vocab = [
         "description": "",
         "pronounce": "bazhak",
         "grammar": "noun"
+    },
+    {
+        "word": "ուրբաթ",
+        "translation": "friday",
+        "description": "",
+        "pronounce": "urbat’",
+        "grammar": "noun"
+    },
+    {
+        "word": "գույն",
+        "translation": "color",
+        "description": "",
+        "pronounce": "gooyn",
+        "grammar": "noun"
     }
 ]
 
