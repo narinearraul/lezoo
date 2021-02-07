@@ -4,6 +4,7 @@ const vocab = [
         "translation": "blue",
         "description": "",
         "pronounce": "Kapuyt",
+        "success": false,
         "grammar": "adjective"
     },
     {
@@ -11,6 +12,7 @@ const vocab = [
         "translation": "potato",
         "description": "",
         "pronounce": "kartofil",
+        "success": false,
         "grammar": "noun"
     },
     {
@@ -18,13 +20,15 @@ const vocab = [
         "translation": "cup",
         "description": "",
         "pronounce": "bazhak",
+        "success": false,
         "grammar": "noun"
     },
     {
         "word": "ուրբաթ",
         "translation": "friday",
-        "description": "",
+        "description": "այսօր ուրբաթ է",
         "pronounce": "urbat’",
+        "success": false,
         "grammar": "noun"
     },
     {
@@ -32,6 +36,23 @@ const vocab = [
         "translation": "color",
         "description": "",
         "pronounce": "gooyn",
+        "success": false,
+        "grammar": "noun"
+    },
+    {
+        "word": "Աթոռ",
+        "translation": "chair",
+        "description": "",
+        "pronounce": "ato'r",
+        "success": false,
+        "grammar": "noun"
+    },
+    {
+        "word": "տուն",
+        "translation": "home, house",
+        "description": "",
+        "pronounce": "tun",
+        "success": false,
         "grammar": "noun"
     }
 ]
@@ -42,6 +63,7 @@ const vocab2 = [
         "translation": "language, tonge",
         "description": "",
         "pronounce": "lezoo",
+        "success": false,
         "grammar": "noun"
     },
     {
@@ -49,6 +71,7 @@ const vocab2 = [
         "translation": "fish",
         "description": "",
         "pronounce": "dzuk",
+        "success": false,
         "grammar": "noun"
     },
     {
@@ -56,6 +79,7 @@ const vocab2 = [
         "translation": "key",
         "description": "",
         "pronounce": "banali",
+        "success": false,
         "grammar": "noun"
     },
     {
@@ -63,6 +87,7 @@ const vocab2 = [
         "translation": "soft",
         "description": "",
         "pronounce": "papook",
+        "success": false,
         "grammar": "adjective"
     },
     {
@@ -70,6 +95,7 @@ const vocab2 = [
         "translation": "beautiful",
         "description": "",
         "pronounce": "geghets’ik",
+        "success": false,
         "grammar": "adjective"
     }   
 ]
