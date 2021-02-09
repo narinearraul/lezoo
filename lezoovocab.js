@@ -40,12 +40,20 @@ const vocab = [
         "grammar": "noun"
     },
     {
-        "word": "Աթոռ",
+        "word": "աթոռ",
         "translation": "chair",
         "description": "",
         "pronounce": "ato'r",
         "success": false,
         "grammar": "noun"
+    },
+    {
+        "word": "ապուշ",
+        "translation": "idiot",
+        "description": "",
+        "pronounce": "apush",
+        "success": false,
+        "grammar": "adjective"
     },
     {
         "word": "տուն",
