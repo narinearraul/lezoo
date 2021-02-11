@@ -20,7 +20,10 @@ app.post("/words", (req, res) => {
     let day = req.body.day
     let start = day > 5 ? day - 5 : 0
     // res.sendStatus(200)
-    res.json(vocab.slice(start, day).reverse())
+    // console.log("NO REV: ", vocab.slice(start, day))
+    // console.log("WITH REV: ", vocab.slice(start, day).reverse())
+
+    res.json(vocab.slice(start, day))
 });
 
 //export app
