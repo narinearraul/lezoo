@@ -4,7 +4,7 @@ const vocab = [
         "translation": "blue",
         "description": "",
         "pronounce": "Kapuyt",
-        "success": false,
+        "success": true,
         "grammar": "adjective"
     },
     {
@@ -54,6 +54,14 @@ const vocab = [
         "pronounce": "apush",
         "success": false,
         "grammar": "adjective"
+    },
+    {
+        "word": "ձեռք",
+        "translation": "hand",
+        "description": "",
+        "pronounce": "dzerk",
+        "success": false,
+        "grammar": "noun"
     },
     {
         "word": "տուն",
