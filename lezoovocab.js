@@ -70,6 +70,70 @@ const vocab = [
         "pronounce": "tun",
         "success": false,
         "grammar": "noun"
+    },
+    {
+        "word": "ակնոց",
+        "translation": "glasses",
+        "description": "",
+        "pronounce": "aknots'",
+        "success": false,
+        "grammar": "noun"
+    },
+    {
+        "word": "կարմիր",
+        "translation": "red",
+        "description": "կարմիր գույն",
+        "pronounce": "karmir",
+        "success": false,
+        "grammar": "adjective"
+    },
+    {
+        "word": "սիրտ",
+        "translation": "heart",
+        "description": "",
+        "pronounce": "sirt",
+        "success": false,
+        "grammar": "noun"
+    },
+    {
+        "word": "կրակ",
+        "translation": "fire",
+        "description": "",
+        "pronounce": "krak",
+        "success": false,
+        "grammar": "noun"
+    },
+    {
+        "word": "էժան",
+        "translation": "cheap",
+        "description": "",
+        "pronounce": "ezhan",
+        "success": false,
+        "grammar": "adjective"
+    },
+    {
+        "word": "թանկ",
+        "translation": "expensive",
+        "description": "",
+        "pronounce": "t'ank",
+        "success": false,
+        "grammar": "adjective"
+    },
+    {
+        "word": "ուրախ",
+        "translation": "happy",
+        "description": "",
+        "pronounce": "urakh",
+        "success": false,
+        "grammar": "adjective"
+    },
+    {
+        "word": "տխուր",
+        "translation": "sad",
+        "description": "",
+        "pronounce": "tkhur",
+        "success": false,
+        "grammar": "adjective"
     }
 ]
 

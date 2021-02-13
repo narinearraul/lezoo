@@ -18,12 +18,14 @@ app.get("/words", (req, res, next) => {
 // Routes which should handle request
 app.post("/words", (req, res) => {
     let day = req.body.day
+    // day = 10
+    // 10>5 yes start = 10-5 = 5
     let start = day > 5 ? day - 5 : 0
     // res.sendStatus(200)
     console.log("NO REV: ", vocab.slice(start, day))
     console.log("WITH REV: ", vocab.slice(start, day).reverse())
-
-    res.json(vocab.slice(start, day).reverse())
+    let slice = vocab.slice(start, day)
+    res.json(slice.reverse())
 });
 
 //export app
